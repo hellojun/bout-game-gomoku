@@ -8,7 +8,7 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@bout/game-sdk": "file:../bout.network/packages/game-sdk",
+    "@boutnetwork/game-sdk": "^0.1.0",
     "hono": "^4.0.0",
     "@hono/node-server": "^1.0.0"
   },

@@ -4,7 +4,7 @@ import type {
   IGame,
   Settlement,
   TurnResult,
-} from '@bout/game-sdk'
+} from '@boutnetwork/game-sdk'
 
 // ---------------------------------------------------------------------------
 // Constants

@@ -1,5 +1,5 @@
 import { serve } from '@hono/node-server'
-import { createGameServer } from '@bout/game-sdk/server'
+import { createGameServer } from '@boutnetwork/game-sdk/server'
 import { Gomoku } from './game.js'
 
 const app = createGameServer(Gomoku)
