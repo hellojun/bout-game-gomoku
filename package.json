@@ -1,0 +1,19 @@
+{
+  "name": "bout-game-gomoku",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@bout/game-sdk": "file:../bout.network/packages/game-sdk",
+    "hono": "^4.0.0",
+    "@hono/node-server": "^1.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
